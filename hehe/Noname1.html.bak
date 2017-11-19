@@ -1,0 +1,39 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+ <HEAD>
+  <TITLE> New Document </TITLE>
+  <META NAME="Generator" CONTENT="EditPlus">
+  <META NAME="Author" CONTENT="">
+  <META NAME="Keywords" CONTENT="">
+  <META NAME="Description" CONTENT="">
+  <style>
+  *{margin:0;padding:0}
+   #box{width:120px;
+    height:100px;
+	margin: 100px auto;
+   }
+     #box:hover #show{
+	   display:block;
+	   top:-100px;
+	 }
+   img{width:100%;
+      height:100%;
+	  display:block;
+   }
+   #show{
+      width:120px;
+	  height:100px;
+	  background:url("cover.png") center center;
+	  position:relative;
+	  top:-200px;
+	  display:none;
+   }
+  </style>
+ </HEAD>
+
+ <BODY>
+  <div id="box"><img src="bg.png">
+  <div id="show"></div>
+  </div>
+ </BODY>
+</HTML>
